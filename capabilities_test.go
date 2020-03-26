@@ -6,7 +6,7 @@ import (
 )
 
 func TestEmptyCapabilities(t *testing.T) {
-	data, err := json.Marshal(Capabilities{})
+	data, err := json.Marshal(chromeCapabilities{})
 	if err != nil {
 		t.Fatalf("json.Marshal(Capabilities{}) return error: %v", err)
 	}
