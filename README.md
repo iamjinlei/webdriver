@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/iamjinlei/webdriver.svg?branch=master)](https://travis-ci.com/iamjinlei/webdriver)
+
 # webdriver
 
 This package is a chrome webdriver client that wraps essential APIs for browser automation. The code was originally forked from https://github.com/tebeka/selenium with a large amount of trimming and modification to simplify the usage and prevent webdriver process leakage. This package does not rely on selenium Java tool anymore. It rather interacts with chromedriver directly and manages lifecycle of the chromedriver process. Multiple webdriver instances (processes use this package) are supported.
